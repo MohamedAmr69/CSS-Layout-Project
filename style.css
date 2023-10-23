@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Nav bar Styling */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 0;
+    top: 0;
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+nav a{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 4px 0 4px;
+}
+#about, #dep:hover,#career:hover{
+    color: #2cb8a8;
+}
+#dep ,#career{
+    color: #b1afbc;
+}
+/* Breif About Us  */
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+#desc{
+    padding: 18px;
+    font-size: 30px ;
+    font-weight: 300;
+    color: #49b39e;
+    padding: 20px;
+}
+.paraghrahs{
+    color: #7b7575;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 270px 0 250px;
+    width: 100%;
+    font-weight: 400;
+}
+.p1{
+    padding-right: 30px;
+}
+/* Departments Section  */
+.departments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 65px 220px 45px;
+    position: relative;
+    color: white;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+.departments img{
+    width: 30px;   
+}
+.dep1 #patient,.dep2 #doctor,.dep3 #clinics{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    margin: 4px ;
+}
+/* Patients Section  */
+.dep1{
+    background-color: #00ccb1;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 0 ;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+}
+
+#select1 select{
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: white;
+}
+/* Doctor Section */
+.dep2{
+    background-color: #3d83df;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 0 ;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+}
+#select2 select{
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: white;
+}
+/* Clinic Section  */
+.dep3{
+    background-color:#1b2734;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 0 ;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+}
+#select3 select{
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+    color: white;
+}
+/* Partners Section */
+.partners{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.partners div {
+    width: 65%;
+    display: flex;
+}
+.partnerdesc {
+    color: #09b4ae;
+    font-size: 26px;
+    font-weight: 300;
+    padding-right: 16px ;
+    margin: 4px 0 6px ;
+}
+.partnerlogos{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.partnerlogos img {
+    width: 80px;
+    object-fit: contain;
+}
+/* progress section */
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:55px 0 0 0;
+    padding-left: 50px;
+    background-color: #d0faf4;
+}
+.progheading{
+    padding: 50px 0 0 0;
+}
+.progheading h2{
+    color: #00b39b;
+    font-weight: 300;
+    padding-left: 50px;
+}
+.progheading p{
+    padding: 20px 0 50px 50px;
+    font-size: 16px;
+    color: #747474;
+}
+.progress-parts{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0 50px 0 100px;
+}
+.progress-parts h3{
+    font-size:30px ;
+    color: #00b39b;
+    font-weight: 300;
+}
+.progress-parts p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+    padding-top: 10px;
+}
+.progress-parts div {
+    height: 500px;
+    width: 250px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin:20px 20px 0 0;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.leader , .appointments{
+    margin-bottom: 20px;
+}
+.leader , .appointments , .patients, .doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    width: 250px;
+    border-radius: 2px;
+}
+.leader img, .appointments img, .patients img, .doctors img{
+    width: 25px;
+    height: 25px;
+}
+/* Team Mates Section  */
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    width: 100%;
+}
+.team h3{
+    color: #00b39b;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+}
+.team p{
+    margin: 25px 0;
+    text-align: center;
+    color: #747474;
+}
+/* Countries Section  */
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+.countries div{
+    border-radius: 0.5px;
+    margin: 8px ;
+}
+.countries button{
+    display: flex;
+    justify-content: center;
+    background: #3d83df;
+    margin-top: 19px;
+    gap: 75px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 0;
+    outline: 0;
+    padding: 0 10px;
+    margin-right: 20px;
+    line-height: 16px;
+    cursor: pointer;
+    float: right;
+}
+.div button{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.countries p{
+    font-size: 16px;
+    color: #747474;
+    padding: 20px 20px 0 0;
+    float: left;
+}
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 150px;
+}
+.country div:hover {
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+  }
+/* Joining section */
+.join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join h1{
+    font-size: 36px;
+    color: black;
+    margin-top: 12px ;
+    font-weight: 300;
+    text-align: center;
+}
+.join button{
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #3d83df;
+    padding: 12px 14px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 25px;
+    border: 0;
+    outline: 0;
+}
+/* Footer  */
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    padding: 0 100px;
+    color: #ababab;
+}
+footer p {
+    padding-top: 25px;
+}
